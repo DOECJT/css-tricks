@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@unocss/reset':
+    specifier: ^0.58.0
+    version: 0.58.0
   pinia:
     specifier: ^2.1.7
     version: 2.1.7(typescript@5.3.2)(vue@3.3.9)
@@ -1203,6 +1206,10 @@ packages:
   /@unocss/reset@0.57.7:
     resolution: {integrity: sha512-oN9024WVrMewGbornnAPIpzHeKPIfVmZ5IsZGilWR761TnI5jTjHUkswsVoFx7tZdpCN2/bqS3JK/Ah0aot3NQ==}
     dev: true
+
+  /@unocss/reset@0.58.0:
+    resolution: {integrity: sha512-UVZ5kz37JGbwAA06k/gjKYcekcTwi6oIhev1EpTtCvHLL6XYcYqcwb/u4Wjzprd3L3lxDGYXvGdjREGm2u7vbQ==}
+    dev: false
 
   /@unocss/rule-utils@0.57.7:
     resolution: {integrity: sha512-gLqbKTIetvRynLkhonu1znr+bmWnw+Cl3dFVNgZPGjiqGHd78PGS0gXQKvzuyN0iO2ADub1A7GlCWs826iEHjA==}
